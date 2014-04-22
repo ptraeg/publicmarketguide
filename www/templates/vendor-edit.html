@@ -1,0 +1,44 @@
+<ion-view title="'Edit: ' + vendor.vendorName" right-buttons="rightButtons">
+    <ion-content has-header="true" padding="true">
+
+        <div class="list">
+
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Name</span>
+                <input type="text" placeholder="Enter name" ng-model="vendor.vendorName">
+            </label>
+
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Booth / Stall Number</span>
+                <input type="text" placeholder="Enter booth / stall location" ng-model="vendor.location">
+            </label>
+
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Description</span>
+                <textarea class="textArea5Line" placeholder="Enter description" ng-model="vendor.description"></textarea>
+            </label>
+
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Email</span>
+                <input type="email" placeholder="Enter email address" ng-model="vendor.email">
+            </label>
+
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Twitter</span>
+                <input type="text" placeholder="Enter twitter handle" ng-model="vendor.twitter">
+            </label>
+
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Phone Number</span>
+                <input type="tel" placeholder="Enter email address" ng-model="vendor.phone">
+            </label>
+
+            <ion-toggle ng-model="vendor.atMarket" ng-checked="vendor.atMarket">
+                At The Market
+            </ion-toggle>
+        </div>
+
+        <p>&nbsp;</p>
+
+    </ion-content>
+</ion-view>

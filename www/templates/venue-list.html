@@ -1,0 +1,28 @@
+<ion-view title="Markets">
+
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon button-clear ion-navicon"></button>
+    </ion-nav-buttons>
+
+    <ion-content lazy-load-images >
+
+        <ion-list>
+
+            <div ng-repeat="venue in venues | orderBy: 'category + title'">
+                <ion-item class="item-divider" ng-if="newCategory(venue.category)">
+                    {{venue.category}}
+                </ion-item>
+                <ion-item item-type="item-thumbnail-left"
+                          type="item-text-wrap"
+                          ng-click="navToHash('#/topMenu/venues/' + venue.id)">
+                    <img lazy-src="{{ venue.thumbUrl }}">
+                    <h2 class="itemTitle">{{venue.title}}</h2>
+                    <div class="ellipsis">
+                        <p class="item-description">{{ venue.description }}</p>
+                    </div>
+                </ion-item>
+            </div>
+        </ion-list>
+
+    </ion-content>
+</ion-view>

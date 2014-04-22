@@ -1,0 +1,38 @@
+<ion-view title="Vendor Detail" class="detailView vendorDetail" >
+    <ion-nav-buttons side="left">
+        <button class="button button-icon ion-ios7-arrow-left" ng-click="goBack()"> List</button>
+    </ion-nav-buttons>
+    <ion-content padding="true">
+
+        <h3>{{vendor.title}}</h3>
+
+        <div class="list">
+            <img ng-src="{{ vendor.imageUrl }}">
+            <label ng-if="vendor.description"  class="item item-input item-stacked-label">
+                <span class="input-label">Description</span>
+                <div class="item-description" ng-bind-html="vendor.description | nlToBr"></div>
+            </label>
+            <label ng-if="vendor.owners" class="item item-input item-stacked-label">
+                <span class="input-label"><i class="icon ion-person-stalker"></i> Owners:</span>
+                {{vendor.owners}}
+            </label>
+            <label ng-if="vendor.from" class="item item-input item-stacked-label">
+                <span class="input-label"><i class="icon ion-home"></i> From:</span>
+                {{vendor.from}}
+            </label>
+            <label ng-if="vendor.phone" class="item item-input item-stacked-label" ng-click="navToHash('tel:' + vendor.phone)">
+                <span class="input-label"><i class="icon ion-ios7-telephone"></i> Phone:</span>
+                <a class="phoneLink" href="">{{vendor.phone}}</a>
+            </label>
+            <label ng-if="vendor.email" class="item item-input item-stacked-label" ng-click="navToHash('mailto:' + vendor.email)">
+                <span class="input-label"><i class="icon ion-email"></i> Email:</span>
+                <a class="emailLink" href="">{{vendor.email}}</a>
+            </label>
+            <label ng-if="vendor.detailUrl" class="item item-input item-stacked-label" ng-click="browseUrl(vendor.detailUrl)">
+                <span class="input-label"><i class="icon ion-ios7-world-outline"></i> Web: </span>
+                <a class="webLink" href="">{{vendor.detailUrl}}</a>
+            </label>
+        </div>
+
+    </ion-content>
+</ion-view>

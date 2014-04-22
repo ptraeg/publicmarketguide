@@ -1,0 +1,46 @@
+<ion-view title="Eatery Detail" class="detailView eateryDetail" >
+    <ion-nav-buttons side="left">
+        <button class="button button-icon ion-ios7-arrow-left" ng-click="goBack()"> List</button>
+    </ion-nav-buttons>
+    <ion-content padding="true">
+
+        <h3>{{eatery.title}}</h3>
+
+        <div class="list">
+            <img ng-src="{{ eatery.imageUrl }}">
+            <label ng-if="eatery.description"  class="item item-input item-stacked-label">
+                <span class="input-label">Description</span>
+                <div class="item-description" ng-bind-html="eatery.description | nlToBr"></div>
+            </label>
+            <label ng-if="eatery.operationHours" class="item item-input item-stacked-label">
+                <span class="input-label pull-left"><i class="icon ion-clock"></i></span>
+                <div class="item-description item-text-wrap iconTextValue" ng-bind-html="eatery.operationHours | nlToBr"></div>
+            </label>
+            <label ng-if="eatery.owners" class="item item-input item-stacked-label">
+                <span class="input-label"><i class="icon ion-person-stalker"></i></span>
+                {{eatery.owners}}
+            </label>
+            <label ng-if="eatery.from" class="item item-input item-stacked-label">
+                <span class="input-label"><i class="icon ion-home"></i></span>
+                {{eatery.from}}
+            </label>
+            <label ng-if="eatery.address" class="item item-input item-stacked-label" ng-click="navToHash(mapUrl)">
+                <span class="input-label"><i class="icon ion-location"></i></span>
+                <a class="addressLink" href="">{{eatery.address}}</a>
+            </label>
+            <label ng-if="eatery.phone" class="item item-input item-stacked-label" ng-click="navToHash('tel:' + eatery.phone)">
+                <span class="input-label"><i class="icon ion-ios7-telephone"></i></span>
+                <a class="phoneLink" href="">{{eatery.phone}}</a>
+            </label>
+            <label ng-if="eatery.email" class="item item-input item-stacked-label" ng-click="navToHash('mailto:' + eatery.email)">
+                <span class="input-label"><i class="icon ion-email"></i></span>
+                <a class="emailLink" href="">{{eatery.email}}</a>
+            </label>
+            <label ng-if="eatery.detailUrl" class="item item-input item-stacked-label" ng-click="browseUrl(eatery.detailUrl)">
+                <span class="input-label"><i class="icon ion-ios7-world-outline"></i></span>
+                <a class="webLink" href="">{{eatery.detailUrl}}</a>
+            </label>
+        </div>
+
+    </ion-content>
+</ion-view>

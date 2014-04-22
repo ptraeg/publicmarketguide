@@ -1,0 +1,21 @@
+{
+    "venue": 1,
+    "sponsors": [
+        {
+            "id": 1,
+            "title": "Nick Evevsky",
+            "description": "Mobile Market App Developer",
+            "thumbUrl": null,
+            "imageUrl": null,
+            "detailUrl": "http://evevsky.com"
+        },
+        {
+            "id": 2,
+            "title": "Pete Traeg",
+            "description": "Mobile Market App Developer",
+            "thumbUrl": null,
+            "imageUrl": null,
+            "detailUrl": "http://traeg.org"
+        }
+    ]
+}

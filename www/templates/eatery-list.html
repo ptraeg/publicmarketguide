@@ -1,0 +1,25 @@
+<ion-view title="Eateries">
+
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon button-clear ion-navicon"></button>
+    </ion-nav-buttons>
+
+    <ion-content lazy-load-images >
+
+        <ion-list>
+
+            <ion-item ng-repeat="vendor in eateries | orderBy: 'title'"
+                      item-type="item-thumbnail-left"
+                      type="item-text-wrap"
+                      ng-click="navToHash('#/topMenu/eateries/' + vendor.id)">
+                <img lazy-src="{{ vendor.thumbUrl }}">
+                <h2 class="itemTitle">{{vendor.title}}</h2>
+                <div class="ellipsis">
+                    <p class="item-description">{{ vendor.description }}</p>
+                </div>
+            </ion-item>
+
+        </ion-list>
+
+    </ion-content>
+</ion-view>

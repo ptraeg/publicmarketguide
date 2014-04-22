@@ -1,0 +1,237 @@
+{
+    "venue": 1,
+    "events": [
+        {
+            "id": 1,
+            "title": "Community Garage Sale & Superfleas",
+            "description": "Imagine dozens of garage sales, all lined up together so you don't have to drive from place to place. You need not imagine it because you can see it for yourself at the Rochester Public Market.",
+            "thumbUrl": "http://traeg.org/proj/mobilemarket/events/garage_t.jpg",
+            "imageUrl": "http://traeg.org/proj/mobilemarket/events/garage.jpg",
+            "detailUrl": null,
+            "dates": [
+                {
+                    "startDate": "2014-04-27T08:00:00-05:00",
+                    "endDate":   "2014-04-27T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-05-04T08:00:00-05:00",
+                    "endDate":   "2014-05-04T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-06-15T08:00:00-05:00",
+                    "endDate":   "2014-06-15T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-06-22T08:00:00-05:00",
+                    "endDate":   "2014-06-22T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-06-29T08:00:00-05:00",
+                    "endDate":   "2014-06-29T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-07-06T08:00:00-05:00",
+                    "endDate":   "2014-07-06T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-07-13T08:00:00-05:00",
+                    "endDate":   "2014-06-15T14:00:00-02:00"
+                },
+                {
+                    "startDate": "2014-07-13T08:00:00-05:00",
+                    "endDate":   "2014-07-13T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-07-20T08:00:00-05:00",
+                    "endDate":   "2014-07-20T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-07-27T08:00:00-05:00",
+                    "endDate":   "2014-07-27T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-08-03T08:00:00-05:00",
+                    "endDate":   "2014-08-03T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-08-10T08:00:00-05:00",
+                    "endDate":   "2014-08-10T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-08-17T08:00:00-05:00",
+                    "endDate":   "2014-08-17T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-08-24T08:00:00-05:00",
+                    "endDate":   "2014-08-24T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-09-07T08:00:00-05:00",
+                    "endDate":   "2014-09-07T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-09-21T08:00:00-05:00",
+                    "endDate":   "2014-09-21T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-09-28T08:00:00-05:00",
+                    "endDate":   "2014-09-28T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-10-05T08:00:00-05:00",
+                    "endDate":   "2014-10-05T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-10-12T08:00:00-05:00",
+                    "endDate":   "2014-10-12T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-10-19T08:00:00-05:00",
+                    "endDate":   "2014-10-19T14:00:00-05:00"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Flavors at the Market",
+            "description": "Each year a series of food demonstrations called Flavors of Rochester at the Market feature is offered demonstrations outside the Market office featuring some of the most creative culinary artists in the area, grilling and serving up sumptuous morsels from their best recipes.",
+            "thumbUrl": "http://traeg.org/proj/mobilemarket/events/flower_t.jpg",
+            "imageUrl": "http://traeg.org/proj/mobilemarket/events/flower.jpg",
+            "detailUrl": "http://www.flavorsofrochester.com",
+            "dates": [
+                {
+                    "startDate": "2014-05-03T10:00:00-05:00",
+                    "endDate":   "2014-05-03T10:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-06-14T10:00:00-05:00",
+                    "endDate":   "2014-06-14T12:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-05-03T08:00:00-05:00",
+                    "endDate":   "2014-05-03T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-06-14T08:00:00-05:00",
+                    "endDate":   "2014-06-14T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-06-21T08:00:00-05:00",
+                    "endDate":   "2014-06-21T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-06-28T08:00:00-05:00",
+                    "endDate":   "2014-06-28T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-07-05T08:00:00-05:00",
+                    "endDate":   "2014-07-05T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-07-14T08:00:00-05:00",
+                    "endDate":   "2014-06-14T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-07-12T08:00:00-05:00",
+                    "endDate":   "2014-07-12T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-07-19T08:00:00-05:00",
+                    "endDate":   "2014-07-19T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-07-26T08:00:00-05:00",
+                    "endDate":   "2014-07-26T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-08-02T08:00:00-05:00",
+                    "endDate":   "2014-08-02T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-08-09T08:00:00-05:00",
+                    "endDate":   "2014-08-09T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-08-16T08:00:00-05:00",
+                    "endDate":   "2014-08-16T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-08-23T08:00:00-05:00",
+                    "endDate":   "2014-08-23T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-09-06T08:00:00-05:00",
+                    "endDate":   "2014-09-06T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-09-20T08:00:00-05:00",
+                    "endDate":   "2014-09-20T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-09-27T08:00:00-05:00",
+                    "endDate":   "2014-09-27T14:00:00-05:00"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Bands on the Bricks",
+            "description": "One of Rochester's most popular concert series, Bands on the Bricks brings the Rochester Public Market to the evening set with live music through the summer months!",
+            "thumbUrl": "http://traeg.org/proj/mobilemarket/events/guitar_t.jpg",
+            "imageUrl": "http://traeg.org/proj/mobilemarket/events/guitar.jpg",
+            "detailUrl": null,
+            "dates": [
+                {
+                    "startDate": "2014-07-04T08:00:00-05:00",
+                    "endDate":   "2014-07-04T14:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-07-13T08:00:00-05:00",
+                    "endDate":   "2014-06-13T14:00:00-05:00"
+                }
+
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Foodlink's Festival of Food",
+            "description": "Festival of Food is an en mass tasting event with over 150 of the best restaurants, bakeries and wine makers in the area and on board. Proceeds from this event support local food cupboards managed by Foodlink. For more information, call : (585) 328-3380.",
+            "thumbUrl": "http://traeg.org/proj/mobilemarket/events/meal_t.jpg",
+            "imageUrl": "http://traeg.org/proj/mobilemarket/events/meal.jpg",
+            "detailUrl": "http://www.foodlinkny.org",
+            "dates": [
+                {
+                    "startDate": "2014-09-15T05:00:00-05:00",
+                    "endDate":   "2014-09-15T08:00:00-05:00"
+                }
+
+            ]
+
+        },
+
+        {
+            "id": 5,
+            "title": "Holidays at the Market",
+            "description": "Holidays at the Market features numerous vendors with art, crafts, decorations, holiday food delicacies, gifts, stocking stuffers, and much much more.",
+            "thumbUrl": "http://traeg.org/proj/mobilemarket/events/holidays_t.jpg",
+            "imageUrl": "http://traeg.org/proj/mobilemarket/events/holidays.jpg",
+            "detailUrl": null,
+            "dates": [
+                {
+                    "startDate": "2014-11-30T09:00:00-05:00",
+                    "endDate":   "2014-11-30T15:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-12-07T09:00:00-05:00",
+                    "endDate":   "2014-12-07T15:00:00-05:00"
+                },
+                {
+                    "startDate": "2014-12-07T09:00:00-05:00",
+                    "endDate":   "2014-12-07T15:00:00-05:00"
+                }
+
+            ]
+
+        }
+    ]
+}

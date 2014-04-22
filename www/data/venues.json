@@ -1,0 +1,86 @@
+{
+    "defaultVenue": 1,
+    "venues": [
+        {
+            "id": 1,
+            "category": "Major Market",
+            "title": "Rochester Public Market",
+            "description": "Rochester's Public Market has served the community since 1905. Bargains abound Tuesday, Thursday and Saturday, 52 weeks a year. Local vendors offer their fresh produce, ethnic delicacies, specialty items, and so much more. In addition, an array of independent local businesses are anchored on Market grounds and in the surrounding Market District.",
+            "thumbUrl": "http://traeg.org/proj/mobilemarket/venues/rpm_t.jpg",
+            "imageUrl": "http://traeg.org/proj/mobilemarket/venues/rpm.jpg",
+            "mapUrl": "http://traeg.org/proj/mobilemarket/venues/maps/rpm-parking.png",
+            "address": "280 N. Union St., Rochester NY 14609",
+            "detailUrl": "http://www.cityofrochester.gov/article.aspx?id=8589936780",
+            "operationHours" : "Tue/Thu  6am - 1pm    Saturday 5am - 3pm",
+            "phone": "585-428-6907",
+            "email": "pmarket@cityofrochester.gov",
+            "additionalInfo": "Volunteer info on the Friends of the Public Market would go here.",
+            "volunteerInfo": "<p>Please volunteer and support the Rochester Public Market by becoming part of the Friends of the Rochester Public Market.</p><p>Find us online at: <a href='http://www.marketfriends.org'>http://www.marketfriends.org</a></p><p>Email us at: <a href='mailto:marketfriends@rochester.rr.com'>marketfriends@rochester.rr.com</a></p><p>Also find us on: <a href='http://facebook.com/friendsoftherochesterpublicmarket'>facebook.com/friendsoftherochesterpublicmarket</a></p>"
+        },
+        {
+            "id": 2,
+            "category": "Other Markets",
+            "title": "South Wedge Farmers' Market",
+            "description": "South Wedge Farmer's Market is a small weekly summer/fall farmers market behind Boulder Coffee Co. in the South Wedge, the South Wedge Farmers' Market embraces the grow local, eat local doctrine in sustainability, sourcing vendors and foods only from within 100 miles. Many vendors also sell organic produce, meats, wine and foods. It has space for just over two dozen vendors. Their Facebook page notes the varying list of vendors. EBT welcome.",
+            "thumbUrl": "http://traeg.org/proj/mobilemarket/venues/swedge_t.jpg",
+            "imageUrl": "http://traeg.org/proj/mobilemarket/venues/swedge.jpg",
+            "address": "100 Alexander St., Rochester NY 14620",
+            "detailUrl": "http://www.facebook.com/pages/South-Wedge-Farmers-Market/105831529438313",
+            "operationHours" : "Thursday  4pm-7pm",
+            "phone": "585-555-1212",
+            "email": "swfarmersmarket@gmail.com"
+        },
+        {
+            "id": 4,
+            "category": "Other Markets",
+            "title": "Brighton Farmers' Market",
+            "description": "Brighton Farmers' Market is a long running farmers' market in the town of Brighton.",
+            "thumbUrl": "http://traeg.org/proj/mobilemarket/venues/brighton_t.jpg",
+            "imageUrl": "http://traeg.org/proj/mobilemarket/venues/brighton.jpg",
+            "address": "Brighton High School lot, 1150 Winton Rd. South",
+            "detailUrl": "http://www.brightonfarmersmarket.org",
+            "operationHours" : "Sunday 9am - 1pm",
+            "phone": "585-269-8918",
+            "email": "info@townofbrighton.gov"
+        },
+        {
+            "id": 5,
+            "category": "Other Markets",
+            "title": "Greece Farmers' Market",
+            "description": "The Greece Farmers' Market is a long running farmers' market in the town of Greece",
+            "thumbUrl": "http://traeg.org/proj/mobilemarket/venues/greece_t.jpg",
+            "imageUrl": "http://traeg.org/proj/mobilemarket/venues/greece.jpg",
+            "address": "1320 Long Pond Road, Rochester NY 14626",
+            "detailUrl": "http://www.themallatgreeceridge.com",
+            "operationHours" : "Thu/Sat  9am-3pm",
+            "phone": "585-225-1140",
+            "email": "grfarmersmarket@gmail.com"
+        },
+        {
+            "id": 6,
+            "category": "Other Markets",
+            "title": "Penfield Farmers' Market",
+            "description": "The Penfield Farmers' Market is a long running farmers' market in the town of Penfield, NY",
+            "thumbUrl": "http://traeg.org/proj/mobilemarket/venues/penfield_t.jpg",
+            "imageUrl": "http://traeg.org/proj/mobilemarket/venues/penfield.jpg",
+            "address": "1801 Fairport Nine Mile Point Rd., Penfield NY 14526",
+            "detailUrl": "https://www.facebook.com/penfieldfarmersmarket",
+            "operationHours" : "Sunday 10am - 2pm",
+            "phone": "585-377-1982",
+            "email": "rebecca@grossmans.com"
+        },
+        {
+            "id": 7,
+            "category": "Other Markets",
+            "title": "Pittsford Farmers' Market",
+            "description": "The Pittsford Farmers' Market is a long running farmers' market in Pittsford, NY",
+            "thumbUrl": "http://traeg.org/proj/mobilemarket/venues/pittsford_t.jpg",
+            "imageUrl": "http://traeg.org/proj/mobilemarket/venues/pittsford.jpg",
+            "address": "Pittsford Colony Plaza,3400 Monroe Ave.",
+            "detailUrl": "http://PittsfordMarket.com",
+            "operationHours" : "Tue/Sat  9am-1pm",
+            "phone": "585-733-8104",
+            "email": "info@townofpittsford.gov"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "venue": 1,
+    "eateries": [
+        {
+            "id": 15,
+            "title": "Juan & Maria's Empanadas",
+            "description": "If you are hungry, visit Jan & Maria’s where that will make you an Empanada just the way you like.",
+            "owners": "Juan & Maria",
+            "from": "Rochester, NY",
+            "thumbUrl": "http://traeg.org/proj/mobilemarket/vendors/thumb/JuanMaria.jpg",
+            "imageUrl": "http://traeg.org/proj/mobilemarket/vendors/image/JuanMaria.jpg",
+            "location": "15",
+            "detailUrl": "http://www.jm.com",
+            "phone": "585-555-1212",
+            "email": "juan@jm.com"
+        },
+        {
+            "id": 16,
+            "title": "European Cheese Shop",
+            "description": "The European Cheese Shop has a wide variety of cheese to sample and purchase.",
+            "owners": "Angela & Antonio Grugnale",
+            "from": "Rochester, NY",
+            "thumbUrl": "http://traeg.org/proj/mobilemarket/vendors/thumb/Grugnale.jpg",
+            "imageUrl": "http://traeg.org/proj/mobilemarket/vendors/image/Grugnale.jpg",
+            "location": "15",
+            "detailUrl": "http://www.ecs.com",
+            "phone": "585-555-1212",
+            "email": "angela@ecs.com"
+        },
+        {
+            "id": 17,
+            "title": "Boulder Coffee Co.",
+            "description": "Visit Boulder Coffee Company at the Rochester Public Market. Boulder’s hip and relaxed atmosphere is the perfect place to enjoy direct flame roasted coffee & espresso. Also, grab a delicious panini sandwich or fresh pastry.",
+            "thumbUrl": "http://traeg.org/proj/mobilemarket/eateries/thumb/BoulderCafe.jpg",
+            "imageUrl": "http://traeg.org/proj/mobilemarket/eateries/image/BoulderCafe.png",
+            "detailUrl": "http://bouldercoffee.info/",
+            "operationHours" : "Thu 7am - 1pm *<br/>Sat 6am - 2pm<br/>Sun 7am - 1pm *<br/>* Seasonal",
+            "address": "1 Public Market Rochester, NY 14609",
+            "phone": "585-232-5282",
+            "email": "info@bouldercoffee.info"
+        },
+        {
+            "id": 18,
+            "title": "Monterrey Mexican Tacos",
+            "description": "If you are hungry, visit Manuela who will make you a Taco just the way you like.",
+            "owners": "Manuela Noble",
+            "from": "Rochester, NY",
+            "thumbUrl": "http://traeg.org/proj/mobilemarket/vendors/thumb/Noble.jpg",
+            "imageUrl": "http://traeg.org/proj/mobilemarket/vendors/image/Noble.jpg",
+            "location": "15",
+            "detailUrl": "http://www.mmt.com",
+            "phone": "585-555-1212",
+            "email": "manuela@mmt.com"
+        }
+    ]
+}

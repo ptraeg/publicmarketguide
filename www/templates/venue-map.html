@@ -1,0 +1,17 @@
+<!--
+  This template loads for the 'topMenu.about' state (app.js)
+-->
+<ion-view title="Map">
+
+    <ion-nav-buttons side="left">
+        <button class="button button-icon ion-ios7-arrow-left" ng-click="goBack()"> Back</button>
+    </ion-nav-buttons>
+
+    <ion-content padding="true">
+
+        <h3>{{venue.title}}</h3>
+
+        <img class="full-image" src="{{ venue.mapUrl }}"/>
+
+    </ion-content>
+</ion-view>

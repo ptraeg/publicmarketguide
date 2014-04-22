@@ -1,0 +1,56 @@
+<!--
+  This template loads for the 'topMenu.about' state (app.js)
+-->
+<ion-view title="Detail: {{venue.title}}" class="detailView">
+
+    <ion-nav-buttons side="left">
+        <button class="button button-icon ion-ios7-arrow-left" ng-click="goBack()"> List</button>
+    </ion-nav-buttons>
+
+
+    <ion-content padding="true">
+
+        <h3>{{venue.title}}</h3>
+
+        <div class="list">
+            <img ng-src="{{ venue.imageUrl }}">
+            <label ng-if="venue.description"  class="item item-input item-stacked-label">
+                <span class="input-label">Description</span>
+                <div class="item-description" ng-bind-html="venue.description | nlToBr"></div>
+            </label>
+            <label ng-if="venue.operationHours" class="item item-input item-stacked-label">
+                <span class="input-label"><i class="icon ion-clock"></i></span>
+                {{ venue.operationHours }}
+            </label>
+            <label ng-if="venue.address" class="item item-input item-stacked-label" ng-click="navToHash(mapUrl)">
+                <span class="input-label"><i class="icon ion-location"></i></span>
+                <a class="addressLink" href="">{{venue.address}}</a>
+            </label>
+            <label ng-if="venue.mapUrl" class="item item-input item-stacked-label" ng-click="navToHash('#/topMenu/venues/' + venue.id + '/map')">
+                <span class="input-label"><i class="icon ion-model-s"></i></span>
+                <a class="addressLink" href="">Parking Map</a>
+            </label>
+            <label ng-if="venue.phone" class="item item-input item-stacked-label" ng-click="navToHash('tel:' + venue.phone)">
+                <span class="input-label"><i class="icon ion-ios7-telephone"></i></span>
+                <a class="phoneLink" href="">{{venue.phone}}</a>
+            </label>
+            <label ng-if="venue.email" class="item item-input item-stacked-label" ng-click="navToHash('mailto:' + venue.email)">
+                <span class="input-label"><i class="icon ion-email"></i></span>
+                <a class="emailLink" href="">{{venue.email}}</a>
+            </label>
+            <label ng-if="venue.detailUrl" class="item item-input item-stacked-label" ng-click="browseUrl(venue.detailUrl)">
+                <span class="input-label"><i class="icon ion-ios7-world-outline"></i></span>
+                <a class="webLink" href="">{{venue.detailUrl}}</a>
+            </label>
+            <label ng-if="venue.additionalInfo"  class="item item-input item-stacked-label">
+                <span class="input-label">Additional Information</span>
+                <div class="item-description"  capture-child-anchor-clicks ng-bind-html="venue.additionalInfo | nlToBr"></div>
+            </label>
+            <label ng-if="venue.volunteerInfo"  class="item item-input item-stacked-label">
+                <span class="input-label">Volunteer Information</span>
+                <div class="item-description item-text-wrap" capture-child-anchor-clicks ng-bind-html="venue.volunteerInfo | nlToBr"></div>
+            </label>
+        </div>
+
+    </ion-content>
+</ion-view>

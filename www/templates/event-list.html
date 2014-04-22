@@ -1,0 +1,28 @@
+<!-- 
+  This template gets placed in the Pet tab's <ion-nav-view> directive.
+  It was wired up in the app config (app.js) 
+  The 'pets' data comes from its $scope within PetIndexCtrl (controller.js)
+-->
+<ion-view title="Events">
+
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon button-clear ion-navicon"></button>
+    </ion-nav-buttons>
+
+    <ion-content has-header="true" has-tabs="true">
+
+        <ion-list>
+
+            <ion-item ng-repeat="event in events"
+                      type="item-text-wrap"
+                      ng-click="navToHash('#/topMenu/events/' + event.id)">
+                <h2 class="itemTitle">{{ event.title }}</h2>
+                <div class="ellipsis">
+                    <p class="item-description">{{ event.description }}</p>
+                </div>
+            </ion-item>
+
+        </ion-list>
+
+    </ion-content>
+</ion-view>

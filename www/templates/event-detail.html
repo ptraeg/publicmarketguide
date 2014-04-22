@@ -1,0 +1,45 @@
+<ion-view title="{{'Event: ' + event.title}}" >
+    <ion-nav-buttons side="left">
+        <button class="button button-icon ion-ios7-arrow-left" ng-click="goBack()"> Events</button>
+    </ion-nav-buttons>
+    <ion-content padding="true">
+
+        <h3>{{event.title}}</h3>
+
+        <div class="card">
+            <div class="item item-divider">
+                Description
+            </div>
+            <div class="item item-text-wrap" ng-bind-html="event.description | nlToBr">
+            </div>
+            <div class="item item-divider">
+                Dates
+            </div>
+            <div class="item item-text-wrap eventDateList">
+                <ion-list>
+
+                    <ion-item ng-repeat="date in event.dates" type="item-text-wrap">
+                        <div class="row">
+                            <div class="col col-25 align-right">
+                                <b>Starts:</b>
+                            </div>
+                            <div class="col col-75">
+                                {{ date.startDate | date:'short' }}
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-25 align-right">
+                                <b>Ends:</b>
+                            </div>
+                            <div class="col col-75">
+                                {{ date.endDate | date:'short' }}
+                            </div>
+                        </div>
+                    </ion-item>
+
+                </ion-list>
+            </div>
+        </div>
+
+    </ion-content>
+</ion-view>
